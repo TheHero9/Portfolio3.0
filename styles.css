@@ -1,0 +1,160 @@
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-height: 100vh;
+  background: linear-gradient(#2b1055, #7597aa);
+  overflow-x: hidden
+
+  background: linear-gradient(to top,#1c0522,transparent);
+
+}
+
+/* HEADER --------------------------------------------------- */
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+}
+
+header .logo{
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header ul li{
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li a{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: white;
+  border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active{
+  background: white;
+  color: black;
+}
+/* NavBar Section=========================================================== */
+.test{
+
+  background: rgb(51,4,96);
+  background: linear-gradient(90deg, rgba(51,4,96,1) 0%, rgba(14,4,37,1) 0%, rgba(52,8,102,1) 100%, rgba(127,0,255,1) 100%);
+}
+
+
+/* PARALLAX SECTION ============================================= */
+section{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+section::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top,#1c0522,transparent);
+  z-index: 1000;
+
+}
+
+section img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* mix-blend-mode: screen; */
+  pointer-events: none;
+}
+
+section img#clouds{
+  mix-blend-mode: screen;
+}
+section img#canyon{
+  z-index: 10;
+}
+
+#text {
+  position: absolute;
+  right: -350px;
+  white-space: nowrap;
+  font-size: 7.5vw;
+  text-decoration-style: solid;
+  z-index: 9;
+  top: 20%;
+  font-weight: bold;
+  border: 5px;
+
+  color: orange;
+  text-shadow: 2px 2px 0 black, 4px 4px 0 black;
+
+}
+
+.btn{
+  text-decoration: none;
+  padding: 8px 30px;
+  border-radius: 40px;
+  position: absolute;
+  left: 47%;
+  color: White;
+  font-size: 1.5em;
+  z-index: 12;
+  display: inline-block;
+  transform: translateY(100px);
+  background: rgb(51,4,96);
+background: linear-gradient(90deg, rgba(51,4,96,1) 0%, rgba(14,4,37,1) 0%, rgba(52,8,102,1) 100%, rgba(127,0,255,1) 100%);
+
+}
+
+.sec{
+  position: relative;
+  padding: 100px;
+  background: #1c0522;
+
+}
+
+.sec h2{
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.sec p{
+  font-size: 1.2em;
+
+  color: white;
+}
