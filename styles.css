@@ -14,51 +14,7 @@ body{
 }
 
 /* HEADER --------------------------------------------------- */
-header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0px 0px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 10000;
-}
 
-header .logo{
-  color: white;
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 2em;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-header ul{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-header ul li{
-  list-style: none;
-  margin-left: 20px;
-}
-
-header ul li a{
-  text-decoration: none;
-  padding: 6px 15px;
-  color: white;
-  border-radius: 20px;
-}
-
-header ul li a:hover,
-header ul li a.active{
-  background: white;
-  color: black;
-}
 /* NavBar Section=========================================================== */
 .test{
 
@@ -70,8 +26,9 @@ header ul li a.active{
 /* PARALLAX SECTION ============================================= */
 section{
   position: relative;
-  width: 100%;
+  max-width: 100%;
   height: 100vh;
+
 
   display: flex;
   justify-content: center;
@@ -90,14 +47,15 @@ section::before{
 
 }
 
+
+
 section img{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  /* mix-blend-mode: screen; */
+  object-fit: fill;
   pointer-events: none;
 }
 
@@ -107,6 +65,8 @@ section img#clouds{
 section img#canyon{
   z-index: 10;
 }
+
+
 
 #text {
   position: absolute;
@@ -144,6 +104,15 @@ background: linear-gradient(90deg, rgba(51,4,96,1) 0%, rgba(14,4,37,1) 0%, rgba(
   position: relative;
   padding: 100px;
   background: #1c0522;
+}
+
+@media (max-width:600px)  {
+  .sec{
+    position: relative;
+    padding: 50px;}
+
+    
+
 
 }
 
@@ -155,6 +124,5 @@ background: linear-gradient(90deg, rgba(51,4,96,1) 0%, rgba(14,4,37,1) 0%, rgba(
 
 .sec p{
   font-size: 1.2em;
-
   color: white;
 }
