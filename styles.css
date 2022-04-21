@@ -56,22 +56,6 @@ section img{
 
 
 
-/* .btn{
-  text-decoration: none;
-  padding: 8px 30px;
-  border-radius: 40px;
-  position: absolute;
-  left: 47%;
-  color: White;
-  font-size: 1.5em;
-  z-index: 12;
-  display: inline-block;
-  transform: translateY(100px);
-  background: rgb(51,4,96);
-background: linear-gradient(90deg, rgba(51,4,96,1) 0%, rgba(14,4,37,1) 0%, rgba(52,8,102,1) 100%, rgba(127,0,255,1) 100%);
-
-} */
-
 
 
 @media (max-width:900px) {
@@ -93,8 +77,6 @@ background: linear-gradient(90deg, rgba(51,4,96,1) 0%, rgba(14,4,37,1) 0%, rgba(
   padding: 100px;
   background: #1c0522;
 
-
-
 }
 
 
@@ -115,16 +97,14 @@ background: linear-gradient(90deg, rgba(51,4,96,1) 0%, rgba(14,4,37,1) 0%, rgba(
 
 #dimi, #learn{
 
-  max-width: 25%;
+  max-width: 40%;
   margin: auto;
   display: block;
-
-
 }
 
 
 #computer{
-  max-width: 25%;
+  max-width: 35%;
   margin: auto;
   display: block;
 
