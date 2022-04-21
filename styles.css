@@ -59,30 +59,20 @@ section img{
   pointer-events: none;
 }
 
-section img#clouds{
-  mix-blend-mode: screen;
-}
-section img#canyon{
-  z-index: 10;
-}
 
+@media (max-width:900px) {
+  section {
+    height: 50vh;
+  }
 
+  .btn{
+    display:
 
-#text {
-  position: absolute;
-  right: -350px;
-  white-space: nowrap;
-  font-size: 7.5vw;
-  text-decoration-style: solid;
-  z-index: 9;
-  top: 20%;
-  font-weight: bold;
-  border: 5px;
+  }
 
-  color: orange;
-  text-shadow: 2px 2px 0 black, 4px 4px 0 black;
 
 }
+
 
 .btn{
   text-decoration: none;
@@ -100,6 +90,21 @@ background: linear-gradient(90deg, rgba(51,4,96,1) 0%, rgba(14,4,37,1) 0%, rgba(
 
 }
 
+@media (max-width:900px) {
+  section {
+    height: 50vh;
+  }
+
+  .btn{
+    top: 45%;
+    left: 40%;
+    font-size: 0.7em
+
+  }
+
+
+}
+
 .sec{
   position: relative;
   padding: 100px;
@@ -111,7 +116,11 @@ background: linear-gradient(90deg, rgba(51,4,96,1) 0%, rgba(14,4,37,1) 0%, rgba(
     position: relative;
     padding: 50px;}
 
-    
+  section {
+    height: 50vh;
+  }
+
+
 
 
 }
