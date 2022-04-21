@@ -6,20 +6,16 @@
 
 body{
   min-height: 100vh;
-  background: linear-gradient(#2b1055, #7597aa);
-  overflow-x: hidden
-
-  background: linear-gradient(to top,#1c0522,transparent);
-
+  /* background: linear-gradient(#2b1055, #7591aa); */
+  overflow-x: hidden;
+  background-color: #1c0522
 }
 
-/* HEADER --------------------------------------------------- */
 
 /* NavBar Section=========================================================== */
 .test{
-
-  background: rgb(51,4,96);
-  background: linear-gradient(90deg, rgba(51,4,96,1) 0%, rgba(14,4,37,1) 0%, rgba(52,8,102,1) 100%, rgba(127,0,255,1) 100%);
+  background: rgb(26,3,78);
+background: linear-gradient(90deg, rgba(26,3,78,1) 0%, rgba(84,0,168,1) 100%);
 }
 
 
@@ -48,7 +44,6 @@ section::before{
 }
 
 
-
 section img{
   position: absolute;
   top: 0;
@@ -60,21 +55,8 @@ section img{
 }
 
 
-@media (max-width:900px) {
-  section {
-    height: 50vh;
-  }
 
-  .btn{
-    display:
-
-  }
-
-
-}
-
-
-.btn{
+/* .btn{
   text-decoration: none;
   padding: 8px 30px;
   border-radius: 40px;
@@ -88,50 +70,127 @@ section img{
   background: rgb(51,4,96);
 background: linear-gradient(90deg, rgba(51,4,96,1) 0%, rgba(14,4,37,1) 0%, rgba(52,8,102,1) 100%, rgba(127,0,255,1) 100%);
 
-}
+} */
+
+
 
 @media (max-width:900px) {
   section {
     height: 50vh;
   }
 
-  .btn{
-    top: 45%;
-    left: 40%;
-    font-size: 0.7em
-
+  .col{
+    background-color: red;
   }
-
-
 }
 
+
+
+
+/* First Section ==================================================== */
 .sec{
   position: relative;
   padding: 100px;
   background: #1c0522;
-}
-
-@media (max-width:600px)  {
-  .sec{
-    position: relative;
-    padding: 50px;}
-
-  section {
-    height: 50vh;
-  }
-
 
 
 
 }
+
 
 .sec h2{
   font-size: 3.5em;
   margin-bottom: 10px;
   color: white;
+  text-align: center;
 }
 
 .sec p{
   font-size: 1.2em;
   color: white;
+}
+
+
+
+
+#dimi, #learn{
+
+  max-width: 25%;
+  margin: auto;
+  display: block;
+
+
+}
+
+
+#computer{
+  max-width: 25%;
+  margin: auto;
+  display: block;
+
+}
+
+.col{
+  margin-bottom: 100px;
+  padding: 40px;
+  /* background: rgb(26,3,78); */
+  background: linear-gradient(90deg, rgba(26,3,78,1) 0%, rgba(84,0,168,1) 100%);
+  border-radius: 80px;
+}
+
+.mid-col{
+  background: rgb(84,0,168);
+background: linear-gradient(90deg, rgba(84,0,168,1) 0%, rgba(26,3,78,1) 100%);
+}
+
+
+
+
+
+
+@media (max-width:800px)  {
+  .sec{
+    position: relative;
+    padding: 50px;
+  }
+
+  .sec h2 {
+    font-size: 2.5em;
+
+  }
+
+  .sec p{
+    font-size: 1.2em;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+}
+
+
+
+@media (min-width: 810px){
+  #dimi, #learn{
+    float: left;
+    margin-right: 30px;
+    max-width: 15%;
+
+  }
+
+  #computer{
+    float: right;
+    margin-left: 30px;
+  }
+
+  .p-text-1, .p-text-3{
+    text-align: left;
+vertical-align: middle;
+line-height: 70px;
+  }
+
+  .p-text-2{
+    text-align: right;
+    vertical-align: middle;
+    line-height: 50px;
+  }
 }
