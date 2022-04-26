@@ -1,3 +1,4 @@
+/* OVERALL ========================================================= */
 * {
   scroll-behavior: smooth;
   margin: 0;
@@ -10,17 +11,14 @@ body{
   overflow-x: hidden;
   background-color: #1c0522
 }
-
-
 /* NavBar Section=========================================================== */
-.test{
+.navbar{
   background: rgb(26,3,78);
-background: linear-gradient(90deg, rgba(26,3,78,1) 0%, rgba(84,0,168,1) 100%);
+  background: linear-gradient(90deg, rgba(26,3,78,1) 0%, rgba(84,0,168,1) 100%);
 }
 
-
 /* PARALLAX SECTION ============================================= */
-section{
+#parallax{
   position: relative;
   max-width: 100%;
   height: 100vh;
@@ -32,19 +30,16 @@ section{
   overflow: hidden;
 }
 
-section::before{
+#parallax::before{
   content: '';
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 100px;
   background: linear-gradient(to top,#1c0522,transparent);
-  z-index: 1000;
+  z-index: 1000;}
 
-}
-
-
-section img{
+#parallax img{
   position: absolute;
   top: 0;
   left: 0;
@@ -55,62 +50,48 @@ section img{
 }
 
 
-
-
-
 @media (max-width:900px) {
-  section {
-    height: 50vh;
-  }
+  #parallax {
+    height: 50vh;}
 
   .col{
-    background-color: red;
-  }
+    background-color: red;}
 }
 
-
-
-
 /* First Section ==================================================== */
-.sec{
+#about-me{
   position: relative;
   padding: 100px;
   background: #1c0522;
-
 }
 
 
-.sec h2{
+#about-me h2{
   font-size: 3.5em;
   margin-bottom: 10px;
   color: white;
-  text-align: center;
-}
+  text-align: center;}
 
-.sec p{
+#about-mec p{
   font-size: 1.2em;
   color: white;
 }
 
-
-
-
 #dimi, #learn{
 
-  max-width: 40%;
-  margin: auto;
-  display: block;
-}
-
+    max-width: 40%;
+    margin: auto;
+    display: block;
+  }
 
 #computer{
-  max-width: 35%;
-  margin: auto;
-  display: block;
+    max-width: 35%;
+    margin: auto;
+    display: block;
 
-}
+  }
 
-.col{
+.colAbout{
   margin-bottom: 100px;
   padding: 40px;
   /* background: rgb(26,3,78); */
@@ -120,34 +101,27 @@ section img{
 
 .mid-col{
   background: rgb(84,0,168);
-background: linear-gradient(90deg, rgba(84,0,168,1) 0%, rgba(26,3,78,1) 100%);
+  background: linear-gradient(90deg, rgba(84,0,168,1) 0%, rgba(26,3,78,1) 100%);
 }
 
-
-
-
-
-
 @media (max-width:800px)  {
-  .sec{
+  #about-me{
     position: relative;
     padding: 50px;
   }
 
-  .sec h2 {
+  #about-me h2 {
     font-size: 2.5em;
 
   }
 
-  .sec p{
+  #about-me p{
     font-size: 1.2em;
     margin-top: 30px;
     text-align: center;
   }
 
 }
-
-
 
 @media (min-width: 810px){
   #dimi, #learn{
@@ -164,8 +138,8 @@ background: linear-gradient(90deg, rgba(84,0,168,1) 0%, rgba(26,3,78,1) 100%);
 
   .p-text-1, .p-text-3{
     text-align: left;
-vertical-align: middle;
-line-height: 70px;
+    vertical-align: middle;
+    line-height: 70px;
   }
 
   .p-text-2{
@@ -173,4 +147,14 @@ line-height: 70px;
     vertical-align: middle;
     line-height: 50px;
   }
+}
+
+
+/* Second Section Experience ========================================== */
+.colExp{
+  margin-bottom: 100px;
+  padding: 40px;
+  background: rgb(26,3,78);
+  /* background: linear-gradient(90deg, rgba(26,3,78,1) 0%, rgba(84,0,168,1) 100%); */
+  border-radius: 30px;
 }
