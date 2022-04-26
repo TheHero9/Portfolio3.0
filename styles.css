@@ -18,10 +18,13 @@ body{
 /* SCROLLBAR========================================================= */
 ::-webkit-scrollbar{
   width: 10px;
+
 }
 
 ::-webkit-scrollbar-track {
   width:10px;;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 
 }
 
@@ -37,28 +40,16 @@ body{
   background: rgba(26,3,78,1);
 
 }
-/* #scrollPath{
-  position: fixed;
-  top: 0;
-  right:0;
-  width:10px;
-  height:100%;
-  background: red;
-}
 
-#progressbar{
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 10px;
-  height: 100%;
-  background: linear-gradient(to top, #008aff, #00ffe7)
-} */
 
 /* NavBar Section=========================================================== */
 .navbar{
   background: rgb(26,3,78);
   background: linear-gradient(90deg, rgba(26,3,78,1) 0%, rgba(84,0,168,1) 100%);
+}
+
+.fa-bars{
+  background: red;
 }
 
 /* PARALLAX SECTION ============================================= */
@@ -141,6 +132,7 @@ body{
   /* background: rgb(26,3,78); */
   background: linear-gradient(90deg, rgba(26,3,78,1) 0%, rgba(84,0,168,1) 100%);
   border-radius: 80px;
+  color: white;
 }
 
 .mid-col{
@@ -201,4 +193,132 @@ body{
   background: rgb(26,3,78);
   /* background: linear-gradient(90deg, rgba(26,3,78,1) 0%, rgba(84,0,168,1) 100%); */
   border-radius: 30px;
+  color: white;
+  text-align: center;
+
+
+
 }
+
+#educationimg{
+  width: 50%;
+  border-top-right-radius: 90px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 90px;
+}
+
+#projectimg{
+  width: 20%;
+}
+
+
+#experience{
+  padding: 100px;
+}
+
+#languages{
+  border-top-right-radius: 0px;
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 0px;
+}
+
+#education{
+  border-top-right-radius: 90px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 90px;
+}
+
+.expimg{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+
+}
+
+.col-sm-6{
+  flex: auto;
+}
+
+@media (max-width:780px){
+  #education, #languages{
+    border-radius: 30px;
+  }
+
+  #projectimg, #educationimg{
+    width: 50%;
+  }
+
+  .colExp{
+    margin-bottom: 50px;
+  }
+}
+
+.test1:hover{
+  transform: rotate(-35deg)
+}
+
+
+/* TEST======================================== */
+/* .testcard{
+  position: relative;
+  width: 300px;
+  height: 380px;
+  background: white;
+  box-shadow: 0 15px 45px rgba(0,0,0,0.5);
+  display: flex;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+  color: black
+
+
+}
+
+.testcard:hover{
+  width:600px;
+}
+
+.testcard .imgBx{
+  position: relative;
+  min-width: 300px;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.testcard .imgBx img{
+  max-width: 250px;
+  transition: 0.5s ease-in-out;
+}
+
+.testcard:hover .imgBx img{
+  transform:  rotate(-35deg) translateX(-20px);
+}
+
+.testcard .details{
+  position: relative;
+  min-width:300px;
+  height: 100%;
+  background: blue;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+
+}
+
+.testcard .details:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid white;
+} */
