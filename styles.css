@@ -11,6 +11,50 @@ body{
   overflow-x: hidden;
   background-color: #1c0522
 }
+
+
+
+
+/* SCROLLBAR========================================================= */
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  width:10px;;
+
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(to top, #B20600, #FF5F00)
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(84,0,168,1);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: rgba(26,3,78,1);
+
+}
+/* #scrollPath{
+  position: fixed;
+  top: 0;
+  right:0;
+  width:10px;
+  height:100%;
+  background: red;
+}
+
+#progressbar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(to top, #008aff, #00ffe7)
+} */
+
 /* NavBar Section=========================================================== */
 .navbar{
   background: rgb(26,3,78);
