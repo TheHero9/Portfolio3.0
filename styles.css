@@ -90,7 +90,7 @@ body{
     height: 50vh;}
 
   .col{
-    background-color: red;}
+    }
 }
 
 /* First Section ==================================================== */
@@ -256,9 +256,66 @@ body{
   .colExp{
     margin-bottom: 50px;
     color: red;
+
   }
 }
 
 
 
 /* TEST======================================== */
+.dd{
+
+}
+.maincontainer{
+  position: relative;
+
+  height: 390px;
+
+
+
+
+}
+
+.thecard{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  background: yellow;
+border-radius: 30px;
+
+
+
+}
+
+.thecard:hover{
+  transform: rotateY(180deg);
+}
+
+.thefront{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+    background: rgba(84,0,168,1);
+  color: black;
+  text-align: center;
+  border-radius: 30px;
+
+
+}
+
+.theback{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: #ff4e00;
+  background-image: linear-gradient(to top, #ff4e00 0%, #ec9f05 74%);
+
+  color: white;
+  transform: rotateY(180deg);
+  text-align: center;
+  border-radius: 30px;
+}
