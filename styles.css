@@ -189,12 +189,13 @@ body{
 /* Second Section Experience ========================================== */
 .colExp{
   margin-bottom: 100px;
-  padding: 20px;
+  padding: 5px;
   background: rgb(26,3,78);
   /* background: linear-gradient(90deg, rgba(26,3,78,1) 0%, rgba(84,0,168,1) 100%); */
   border-radius: 30px;
   color: white;
   text-align: center;
+  background: linear-gradient(to top, #B20600, #FF5F00);
 
 
 
@@ -257,6 +258,7 @@ body{
     margin-bottom: 50px;
     color: red;
 
+
   }
 
 }
@@ -264,19 +266,17 @@ body{
 
 
 
-/* TEST======================================== */
-.dd{
+/* CARDS======================================== */
 
-}
 .maincontainer{
   position: relative;
 
   height: 390px;
-  /* overflow: hidden; */
+}
 
-
-
-
+.maincontainer h2{
+  color: white;
+  margin-top: 20px;;
 }
 
 .thecard{
@@ -320,10 +320,44 @@ body{
 
   color: white;
   transform: rotateY(180deg);
-  text-align: center;
   border-radius: 30px;
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  padding-top: 30px;
+  word-wrap: break-word;
+
+
+
+}
+
+.theback h4,h5{
+  margin-bottom: 30px;
+}
+
+.theback a{
+  color: white;
+  text-decoration:  overline;
+  font-size: 1.4rem;
+}
+
+a:hover{
+  color: black;
+  text-decoration: underline;
 }
 
 @media (max-width:780px){
-
+  .theback h5{
+      font-size: 0.9rem;
+      margin-bottom: 40px;
   }
+
+  .theback a{
+    font-size: 1rem;
+  }
+
+  .colExp{
+    padding: 2px;
+  }
+}
