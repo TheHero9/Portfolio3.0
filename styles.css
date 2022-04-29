@@ -189,7 +189,7 @@ body{
 /* Second Section Experience ========================================== */
 .colExp{
   margin-bottom: 100px;
-  padding: 40px;
+  padding: 20px;
   background: rgb(26,3,78);
   /* background: linear-gradient(90deg, rgba(26,3,78,1) 0%, rgba(84,0,168,1) 100%); */
   border-radius: 30px;
@@ -258,7 +258,9 @@ body{
     color: red;
 
   }
+
 }
+
 
 
 
@@ -270,6 +272,7 @@ body{
   position: relative;
 
   height: 390px;
+  /* overflow: hidden; */
 
 
 
@@ -283,7 +286,7 @@ body{
   transform-style: preserve-3d;
   transition: all 0.5s ease;
   background: yellow;
-border-radius: 30px;
+  border-radius: 30px;
 
 
 
@@ -298,7 +301,8 @@ border-radius: 30px;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-    background: rgba(84,0,168,1);
+  background: rgb(26,3,78);
+  background: linear-gradient(90deg, rgba(26,3,78,1) 0%, rgba(84,0,168,1) 100%);
   color: black;
   text-align: center;
   border-radius: 30px;
@@ -319,3 +323,7 @@ border-radius: 30px;
   text-align: center;
   border-radius: 30px;
 }
+
+@media (max-width:780px){
+
+  }
