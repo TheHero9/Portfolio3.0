@@ -107,9 +107,14 @@ body{
   color: white;
   text-align: center;}
 
+.colAbout h3{
+  text-align: center;
+}
+
 #about-mec p{
   font-size: 1.2em;
   color: white;
+
 }
 
 #dimi, #learn{
@@ -175,13 +180,13 @@ body{
   .p-text-1, .p-text-3{
     text-align: left;
     vertical-align: middle;
-    line-height: 70px;
+    line-height: 30px;
   }
 
   .p-text-2{
     text-align: right;
     vertical-align: middle;
-    line-height: 50px;
+    line-height: 30px;
   }
 }
 
@@ -276,7 +281,7 @@ body{
 
 .maincontainer h2{
   color: white;
-  margin-top: 20px;;
+  margin-top: 20px;
 }
 
 .thecard{
