@@ -366,3 +366,45 @@ a:hover{
     padding: 2px;
   }
 }
+
+/* Footer section============================================== */
+
+#footer{
+  background: rgb(26,3,78);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+
+.footer-box{
+  text-align: center;
+  padding-top: 20px;
+
+
+}
+
+
+.emoji{
+  color: #ff4e00;
+
+}
+
+.footer-link{
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white
+}
+
+.footer-link:hover{
+  color: #ff4e00;
+}
+
+
+.footer-nav{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+#footer li{
+  margin-right: 20px;
+}

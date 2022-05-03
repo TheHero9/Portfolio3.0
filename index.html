@@ -26,22 +26,22 @@
       <a class="navbar-brand" href="#">Dimi's Site</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="">
-          <i class="fas fa-equals"></i>
+          <i class="fas fa-equals emoji"></i>
         </span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#about-me"> <i class="fas fa-question-circle"></i> About Me</a>
+            <a class="nav-link " aria-current="page" href="#about-me"> <i class="fas fa-question-circle emoji"></i> About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#experience"> <i class="fas fa-keyboard"></i> Experience</a>
+            <a class="nav-link" aria-current="page" href="#experience"> <i class="fas fa-keyboard emoji"></i> Experience</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#"> <i class="fas fa-wrench"></i>Education</a>
-          </li>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="#"> <i class="fas fa-camera"></i> Hobbys</a>
+            <a class="nav-link" href="#"> <i class="fas fa-camera emoji"></i> Hobbys</a>
           </li>
 
         </ul>
@@ -71,21 +71,21 @@
           <img class="about-img" id="dimi" src="images/dimipicture.png" alt="">
 
           <p class="p-text-1">I'm 19years old from Sofia, Bulgaria. I study 'Business informatics' at
-          the University of National and World Economy. I love football, photography and programming. </p>
+            the University of National and World Economy. I love football, photography and programming. </p>
         </div>
         <div class="col col-12 mid-col colAbout">
           <h3>My programming experience</h3>
           <img class="about-img" id="computer" src="images/computer-modified.png" alt="">
           <p class="p-text-2">I started learning programing on my own in November 2021.
-        Since then, I learned how to make original websites with HTML, CSS, JS. Right now, I'm looking for a professional job/intership
-      to develop my skills.</p>
+            Since then, I learned how to make original websites with HTML, CSS, JS. Right now, I'm looking for a professional job/intership
+            to develop my skills.</p>
         </div>
         <div class="col col-12 colAbout">
           <h3>My skills</h3>
           <img class="about-img" id="learn" src="images/learner-modified.png" alt="">
           <p class="p-text-3">I'm a quick learner, motivated and positive.
             I can work in a team and learn new things. I don't give up easily and I like to achieve my goals.
-            </p>
+          </p>
         </div>
       </div>
     </div>
@@ -131,7 +131,7 @@
             </div>
 
             <div class="theback">
-                <br>
+              <br>
               <h4>•2016-2021 French High School in Sofia</h4> <br>
               <h4>•2021 University of National and World Economy in Sofia - "Business informatics"</h4>
             </div>
@@ -189,40 +189,102 @@
         </div>
       </div>
     </div>
+  </div>
+
+
+
+
+
+  <!-- <section id="footer">
+
+
+    <span>
+      <div class="col-md-4 footer-box">
+      <i class="fab fa-github fa-3x emoji"></i>
+      <a class="footer-link" href="https://github.com/TheHero9">Github</a>
+      </div>
+    </span>
+    <span>
+      <div class=" col-md-4 footer-box">
+      <i class="fab fa-instagram fa-3x emoji"></i>
+      <a class="footer-link" href="https://www.instagram.com/dimi.v.9/">Instagram</a>
+      </div>
+    </span>
+    <span>
+      <div class="col-md-4 footer-box">
+      <form action="mailto:dimitrios.v.2002@gmail.com">
+        <i class="fas fa-envelope fa-3x emoji"></i>
+        <button class="btn btn-outline-dark btn-lg">Email</button>
+      </form>
+      </div>
+    </span>
+
+
+    </div>
+  </section> -->
+
+<section id="footer">
+  <nav class="navbar navbar-expand-lg fixed-bottom navbar-dark footer-nav">
+   <div class="container-fluid">
+     <a class="navbar-brand" href="#">Contact Me</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="">
+         <i class="fas fa-arrow-up emoji"></i>
+       </span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarNav2">
+       <ul class="navbar-nav ms-auto">
+         <li class="nav-item">
+           <i class="fab fa-github fa-2x emoji"></i>
+           <a class="footer-link" href="https://github.com/TheHero9">Github</a>
+         </li>
+         <li class="nav-item">
+           <i class="fab fa-instagram fa-2x emoji"></i>
+           <a class="footer-link" href="https://www.instagram.com/dimi.v.9/">Instagram</a>
+         </li>
+
+         <li class="nav-item">
+           <form action="mailto:dimitrios.v.2002@gmail.com">
+             <i class="fas fa-envelope fa-2x emoji"></i>
+             <button class="btn btn-outline-dark btn-lg">Email</button>
+         </li>
+
+       </ul>
+     </div>
+   </div>
+ </nav>
+</section>
 
 
 
 
 
 
-
-
-
-    <script type="text/javascript">
-      let sky = document.getElementById("sky")
-      let building = document.getElementById("building")
-      let canyon = document.getElementById("canyon")
-      let btn = document.getElementById("button")
-
-
-
-
-      window.addEventListener("scroll", function() {
-
-        let value = window.scrollY;
-        sky.style.left = value * 0.25 + "px";
-        building.style.top = value * 0.70 + "px";
-        canyon.style.top = value * 0 + "px";
-
-      })
-    </script>
+  <script type="text/javascript">
+    let sky = document.getElementById("sky")
+    let building = document.getElementById("building")
+    let canyon = document.getElementById("canyon")
+    let btn = document.getElementById("button")
 
 
 
 
-    <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    window.addEventListener("scroll", function() {
+
+      let value = window.scrollY;
+      sky.style.left = value * 0.25 + "px";
+      building.style.top = value * 0.70 + "px";
+      canyon.style.top = value * 0 + "px";
+
+    })
+  </script>
+
+
+
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 
 </html>
