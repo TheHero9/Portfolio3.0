@@ -241,6 +241,7 @@ body{
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 90px;
+  font-size: 1.2rem
 }
 
 .expimg{
@@ -260,6 +261,8 @@ body{
   margin-bottom:30px;
 }
 
+
+
 @media (max-width:780px){
   #education, #languages{
     border-radius: 30px;
@@ -270,8 +273,10 @@ body{
   .colExp{
     margin-bottom: 50px;
     color: red;
+  }
 
-
+  .h4-ed{
+    font-size: 0.8rem;
   }
 
 }
