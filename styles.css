@@ -109,6 +109,7 @@ body{
 
 .colAbout h3{
   text-align: center;
+  margin-bottom: 40px;
 }
 
 #about-mec p{
@@ -122,6 +123,8 @@ body{
     max-width: 40%;
     margin: auto;
     display: block;
+
+
   }
 
 #computer{
@@ -130,6 +133,7 @@ body{
     display: block;
 
   }
+
 
 .colAbout{
   margin-bottom: 100px;
@@ -152,14 +156,14 @@ body{
   }
 
   #about-me h2 {
-    font-size: 2.5em;
-
+    font-size: 3.5em;
   }
 
   #about-me p{
     font-size: 1.2em;
     margin-top: 30px;
     text-align: center;
+
   }
 
 }
@@ -204,8 +208,12 @@ body{
 
 
 
+
 }
 
+#about-me p {
+  font-size: 1.5rem
+}
 
 
 #educationimg{
@@ -397,6 +405,7 @@ a:hover{
 
 .footer-link:hover{
   color: #ff4e00;
+  text-decoration: none
 }
 
 
