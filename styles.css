@@ -310,9 +310,9 @@ body{
 
 }
 
-.thecard:hover{
+/* .thecard:hover{
   transform: rotateY(180deg);
-}
+} */
 
 .thefront{
   position: absolute;
@@ -421,4 +421,9 @@ a:hover{
 
 #footer li{
   margin-right: 20px;
+}
+
+
+.test{
+  transform: rotateY(180deg);
 }
