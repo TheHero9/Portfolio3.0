@@ -367,6 +367,10 @@ a:hover{
   text-decoration: underline;
 }
 
+.test{
+  transform: rotateY(180deg);
+}
+
 @media (max-width:780px){
   .theback h5{
       font-size: 0.9rem;
@@ -426,6 +430,14 @@ a:hover{
 }
 
 
-.test{
-  transform: rotateY(180deg);
+
+.footer-item{
+  
+}
+
+
+
+.navbar{
+  padding-top: 0;
+  padding-bottom: 0;
 }
