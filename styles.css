@@ -279,6 +279,11 @@ body{
     font-size: 0.8rem;
   }
 
+  .testimg{
+    max-height: 40%;
+    margin-top: 60px;
+  }
+
 }
 
 
@@ -310,9 +315,6 @@ body{
 
 }
 
-/* .thecard:hover{
-  transform: rotateY(180deg);
-} */
 
 .thefront{
   position: absolute;
