@@ -454,8 +454,14 @@ a:hover{
 }
 
 
-@media (max-width:780px){
+@media (max-width:920px){
   .footer-nav{
-    width: 50%;
+    width: 45%;
+
+  }
+
+  .footer-brand{
+    font-size: 95%;
+    margin-left: 30px;
   }
 }
