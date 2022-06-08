@@ -384,6 +384,8 @@ a:hover{
   .colExp{
     padding: 2px;
   }
+
+
 }
 
 /* Footer section============================================== */
@@ -423,6 +425,8 @@ a:hover{
 .footer-nav{
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  width: 20%;
+
 }
 
 #footer li{
@@ -430,14 +434,28 @@ a:hover{
 }
 
 
-
-.footer-item{
-  
+#footer{
+  width: 50%;
 }
 
+.footer-item{
+  text-align: center;
+}
 
 
 .navbar{
   padding-top: 0;
   padding-bottom: 0;
+
+}
+
+.footer-brand{
+  text-align: center;
+}
+
+
+@media (max-width:780px){
+  .footer-nav{
+    width: 40%;
+  }
 }
