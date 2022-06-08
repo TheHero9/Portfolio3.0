@@ -98,6 +98,7 @@ body{
   position: relative;
   padding: 100px;
   background: #1c0522;
+  padding-bottom: 0;
 }
 
 
@@ -134,6 +135,10 @@ body{
 
   }
 
+.about-me-row{
+  justify-content: center;
+  align-items: center;
+}
 
 .colAbout{
   margin-bottom: 100px;
@@ -142,6 +147,8 @@ body{
   background: linear-gradient(90deg, rgba(26,3,78,1) 0%, rgba(84,0,168,1) 100%);
   border-radius: 80px;
   color: white;
+
+
 }
 
 .mid-col{
@@ -210,6 +217,7 @@ body{
 
 
 }
+
 
 #about-me p {
   font-size: 1.5rem
@@ -464,4 +472,11 @@ a:hover{
     font-size: 95%;
     margin-left: 30px;
   } */
+}
+
+@media (max-width:520px){
+  .footer-nav{
+    width: 42%;
+
+  }
 }
